@@ -19,8 +19,17 @@
 //     }
 // }
 //alert
-function tablaMultiplicar(numero){
+// function tablaMultiplicar(numero){
+//     for(let i=0;i<10;i++){
+//         alert(numero + " x " + i + " = " + (numero * i));
+//     }
+// }
+
+
+
+function tablaMultiplicar(){
+    lista = [1,2,3,4,5];
     for(let i=0;i<10;i++){
-        alert(numero + " x " + i + " = " + (numero * i));
+        console.log(lista[i]*lista[i]);
     }
 }
