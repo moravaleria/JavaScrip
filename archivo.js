@@ -12,8 +12,15 @@
 // }
 
 //FUNCIONES
-function tablaMultiplicar(numero){ 
+//document.write("Hola, Mundo!");
+// function tablaMultiplicar(numero){ 
+//     for(let i=0;i<10;i++){
+//         document.write(numero + " x " + i + " = " + (numero * i));
+//     }
+// }
+//alert
+function tablaMultiplicar(numero){
     for(let i=0;i<10;i++){
-        console.log(numero + " x " + i + " = " + (numero * i));
+        alert(numero + " x " + i + " = " + (numero * i));
     }
 }
